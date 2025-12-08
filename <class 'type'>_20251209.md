@@ -5,14 +5,16 @@ categories: ["AI"]
 tags: ["AI"]
 ---
 
-# AI日报:可灵Avatar 2.0 上线;谷歌推出Gemini 3 Deep Think模式;阿里云析言 XiYan - SQL 强势夺冠
+# AI日报:可灵Avatar 2.0上线;谷歌推出Gemini 3 Deep Think模式;阿里云析言XiYan - SQL强势夺冠
 
 2025年12月5号 16:09
+发布于最新AI日报
+
 欢迎来到【AI日报】栏目!这里是你每天探索人工智能世界的指南，每天我们为你呈现AI领域的热点内容，聚焦开发者，助你洞悉技术趋势、了解创新AI产品应用。
 
 新鲜AI产品点击了解： [https://app.aibase.com/zh](https://app.aibase.com/zh)
 
-## 1、KlingAI Avatar 2.0 上线即爆火：5分钟唱跳一键生成，数字人正式告别“面瘫”时代
+## 1、KlingAI Avatar 2.0上线即爆火：5分钟唱跳一键生成，数字人正式告别“面瘫”时代
 KlingAI Avatar 2.0通过多模态导演模块实现从音频到情感表演的智能跃迁，显著提升数字人的表情和动作表现力，为短视频、电商广告与教育内容等领域带来革命性影响。
 
 ### 【AiBase提要】
@@ -26,7 +28,7 @@ KlingAI Avatar 2.0通过多模态导演模块实现从音频到情感表演的�
 ## 2、谷歌推出Gemini 3 Deep Think模式，AI推理能力显著提升
 谷歌推出了Gemini 3 Deep Think模式，显著提升了AI的推理能力，特别是在处理复杂的数学、科学和逻辑问题方面。该模式在多个基准测试中表现出色，例如在“人类最后的考试”中取得了41.0%的成绩，而在ARC - AGI - 2测试中使用代码执行时达到了45.1%。这一改进得益于其先进的并行推理技术，能够同时探索多个假设。Ultra订阅用户可以通过简单的操作体验这一功能，进一步推动AI技术的发展。
 
-![image](https://p26-bot-workflow-sign.byteimg.com/tos-cn-i-mdko3gqilj/3fc28ea293ff408ea39f06cfb8ebc266.png~tplv-mdko3gqilj-image.png?rk3s=c8fe7ad5&x-expires=1796276461&x-signature=nAuGJZ5Ogmeymuxz%2B325j9Unt%2F8%3D)
+![image.png](https://p3-bot-workflow-sign.byteimg.com/tos-cn-i-mdko3gqilj/3470e1419e8f426ba5e89a1f42898f3e.png~tplv-mdko3gqilj-image.png?rk3s=c8fe7ad5&x-expires=1796276703&x-signature=EqfBBSHYrBIxBmZkPAomBcAgGYk%3D)
 
 ### 【AiBase提要】
 - 🧠 Gemini3Deep Think模式正式推出，提升推理能力，专注于复杂问题。
@@ -39,7 +41,7 @@ KlingAI Avatar 2.0通过多模态导演模块实现从音频到情感表演的�
 ## 3、豆包手机助手发布调整公告:AI操作能力将进入规范化阶段
 豆包手机助手发布调整公告，宣布将对AI操作手机的部分能力进行规范化调整，以维护平台生态和金融安全。
 
-![image](https://p26-bot-workflow-sign.byteimg.com/tos-cn-i-mdko3gqilj/a525c4b0587848808d8925d8d24b87ec.png~tplv-mdko3gqilj-image.png?rk3s=c8fe7ad5&x-expires=1796276462&x-signature=SJK%2Bou4FGcvHMO83PN88%2BWZVuCY%3D)
+![image.png](https://p3-bot-workflow-sign.byteimg.com/tos-cn-i-mdko3gqilj/438fc9d1d6a8455abfaaeb67a7280945.png~tplv-mdko3gqilj-image.png?rk3s=c8fe7ad5&x-expires=1796276707&x-signature=7VqQhSLVd%2FQ6vumNbL%2FEs6peAgQ%3D)
 
 ### 【AiBase提要】
 - 📱 AI操作手机功能需用户主动授权，执行过程中可随时终止
@@ -49,7 +51,7 @@ KlingAI Avatar 2.0通过多模态导演模块实现从音频到情感表演的�
 ## 4、微软发布VibeVoice 0.5B：仅0.5B参数却实现300毫秒实时开口
 微软发布全新实时文本转语音模型VibeVoice - Realtime - 0.5B，其小巧的体积和强大的性能为AI语音交互带来了新的可能性。该模型不仅支持中英文实时转录与语音生成，还能在多角色对话中保持各自独特的语气、节奏和音色特征，同时具备情感表达和上下文记忆能力，使语音更加自然真实。
 
-![image](https://p26-bot-workflow-sign.byteimg.com/tos-cn-i-mdko3gqilj/0fce64c945f9497ab8b77146f8b8e9d8.png~tplv-mdko3gqilj-image.png?rk3s=c8fe7ad5&x-expires=1796276463&x-signature=xq%2F77Ku7rUypHdIJHWAgKboJ6rA%3D)
+![image.png](https://p26-bot-workflow-sign.byteimg.com/tos-cn-i-mdko3gqilj/484e36451e7e48da9a417e8c5b8fb4a7.png~tplv-mdko3gqilj-image.png?rk3s=c8fe7ad5&x-expires=1796276709&x-signature=L2Lok7zjyBthhg83lgUAZN4LOMU%3D)
 
 ### 【AiBase提要】
 - 🧠 模型规模小但性能强，仅0.5B参数即可实现接近实时的语音生成。
@@ -62,7 +64,7 @@ KlingAI Avatar 2.0通过多模态导演模块实现从音频到情感表演的�
 ## 5、Android XR特别发布会前瞻：Gemini驱动智能眼镜首秀，谷歌能否借“空间计算”扳回一城？
 文章介绍了谷歌即将举办的《The Android Show:XR Edition》特别发布会，重点展示了Android XR平台的软件更新与硬件生态，包括软件底座升级、硬件生态亮相以及开发者与可用性等内容。
 
-![image](https://p9-bot-workflow-sign.byteimg.com/tos-cn-i-mdko3gqilj/8593b113556144afaacf236f78ae8e2a.png~tplv-mdko3gqilj-image.png?rk3s=c8fe7ad5&x-expires=1796276464&x-signature=GwJ7RmVWn2qND4ltp%2FzaYHLzTek%3D)
+![image.png](https://p3-bot-workflow-sign.byteimg.com/tos-cn-i-mdko3gqilj/d2af702c1e2544a593c72f47c979005c.png~tplv-mdko3gqilj-image.png?rk3s=c8fe7ad5&x-expires=1796276711&x-signature=GYXCM7qxMQ7UXyuqfqG4%2Fm1L%2Fbs%3D)
 
 ### 【AiBase提要】
 - 🧠 软件底座升级，系统响应速度与多设备协同能力优化，第三方开发者工具链同步更新，降低硬件厂商适配成本。
@@ -80,7 +82,7 @@ OpenAI宣布其最新、最强大的代理编码模型GPT - 5.1 - CodexMax已全
 ## 7、阿里云析言XiYan - SQL强势夺冠，全球SQL诊断评测榜单第一！
 阿里云飞天实验室自主研发的数据分析智能体“析言XiYan - SQL”在BIRD - CRITIC评测中表现优异，成功登顶所有开放榜单，超越多家国内外顶尖团队，刷新了SQL诊断与修复的行业纪录。该评测涵盖了MySQL、PostgreSQL、SQL Server、Oracle等主流数据库系统，题目包括简单查询和复杂操作，整体难度远高于传统测试。析言XiYan - SQL通过创新手段提升了模型的可执行性和可维护性，并已在阿里云百炼平台上线，提供SQL生成与诊断服务。
 
-![image](https://p9-bot-workflow-sign.byteimg.com/tos-cn-i-mdko3gqilj/c27c26e5603a4335b061ec3690a1c1a6.png~tplv-mdko3gqilj-image.png?rk3s=c8fe7ad5&x-expires=1796276465&x-signature=rDZ%2BvE3V%2FNI%2F9UCyy0A8giz8r4g%3D)
+![image.png](https://p26-bot-workflow-sign.byteimg.com/tos-cn-i-mdko3gqilj/a93f8b55ea1f48b992ee3e2d9b6e7606.png~tplv-mdko3gqilj-image.png?rk3s=c8fe7ad5&x-expires=1796276713&x-signature=2nD64Hl1XVSMQMLqJOsc9hK1%2BxY%3D)
 
 ### 【AiBase提要】
 - ✅ 析言XiYan - SQL在BIRD - CRITIC评测中斩获第一，超越众多顶尖团队。
