@@ -5,9 +5,9 @@ categories: ["Kotlin","高阶函数"]
 tags: ["Kotlin","高阶函数"]
 ---
 
-Kotlin 高阶函数：用法与工程实践
+# Kotlin 高阶函数：用法与工程实践
 
-一、什么是高阶函数
+## 一、什么是高阶函数
 
 高阶函数是指可以接收函数作为参数或返回函数作为结果的函数。这是函数式编程的核心概念之一。
 
@@ -25,9 +25,9 @@ fun getMultiplier(factor: Int): (Int) -> Int {
 }
 ```
 
-二、核心用法
+## 二、核心用法
 
-1. Lambda表达式
+### 1. Lambda表达式
 
 ```kotlin
 val sum = { a: Int, b: Int -> a + b }
@@ -37,7 +37,7 @@ val result = calculate(10, 5, sum) // 15
 calculate(10, 5) { a, b -> a * b }
 ```
 
-2. 带接收者的Lambda (DSL构建)
+### 2. 带接收者的Lambda (DSL构建)
 
 ```kotlin
 fun buildString(action: StringBuilder.() -> Unit): String {
@@ -53,7 +53,7 @@ val result = buildString {
 }
 ```
 
-3. 函数类型别名 (提高可读性)
+### 3. 函数类型别名 (提高可读性)
 
 ```kotlin
 typealias OnClick = (View) -> Unit
@@ -68,7 +68,7 @@ class Button {
 }
 ```
 
-4. 内联函数 (性能优化)
+### 4. 内联函数 (性能优化)
 
 ```kotlin
 inline fun <T> measureTimeMillis(block: () -> T): Pair<T, Long> {
@@ -79,9 +79,9 @@ inline fun <T> measureTimeMillis(block: () -> T): Pair<T, Long> {
 }
 ```
 
-三、工程最佳实践
+## 三、工程最佳实践
 
-1. 自定义高阶函数
+### 1. 自定义高阶函数
 
 ```kotlin
 // 带默认参数的函数类型
@@ -103,7 +103,7 @@ val success = executeWithRetry(maxRetries = 5) {
 }
 ```
 
-2. 领域特定语言 (DSL)
+### 2. 领域特定语言 (DSL)
 
 ```kotlin
 class DatabaseConfig {
@@ -124,7 +124,7 @@ val config = database {
 }
 ```
 
-3. 资源管理
+### 3. 资源管理
 
 ```kotlin
 inline fun <T : AutoCloseable, R> T.use(block: (T) -> R): R {
@@ -146,7 +146,7 @@ inline fun <T, R> withResource(resource: T, block: T.() -> R): R
 }
 ```
 
-4. 组合函数 (Function Composition)
+### 4. 组合函数 (Function Composition)
 
 ```kotlin
 infix fun <A, B, C> ((B) -> C).compose(g: (A) -> B): (A) -> C {
@@ -161,7 +161,7 @@ val composed = multiplyByThree compose addTwo
 println(composed(5)) // (5 + 2) * 3 = 21
 ```
 
-5. 柯里化 (Currying)
+### 5. 柯里化 (Currying)
 
 ```kotlin
 fun <A, B, C> curry(f: (A, B) -> C): (A) -> (B) -> C {
@@ -174,9 +174,9 @@ val addFive = curriedAdd(5)
 println(addFive(3)) // 8
 ```
 
-四、架构设计中的应用
+## 四、架构设计中的应用
 
-1. 策略模式替代
+### 1. 策略模式替代
 
 ```kotlin
 // 传统策略模式
@@ -197,7 +197,7 @@ val bubbleSorter = Sorter { list ->
 }
 ```
 
-2. 回调处理
+### 2. 回调处理
 
 ```kotlin
 class Repository {
@@ -219,7 +219,7 @@ class Repository {
 }
 ```
 
-3. 依赖注入
+### 3. 依赖注入
 
 ```kotlin
 class UseCase(
@@ -235,9 +235,9 @@ class UseCase(
 }
 ```
 
-五、性能注意事项
+## 五、性能注意事项
 
-1. 适当使用 inline
+### 1. 适当使用 inline
 
 ```kotlin
 // 适合内联的情况
@@ -252,7 +252,7 @@ fun storeCallback(callback: () -> Unit) {
 }
 ```
 
-2. 避免重复创建Lambda
+### 2. 避免重复创建Lambda
 
 ```kotlin
 // 不好：每次调用都创建新的Lambda
@@ -273,7 +273,7 @@ fun processListOptimized(list: List<Int>) {
 }
 ```
 
-六、测试中的使用
+## 六、测试中的使用
 
 ```kotlin
 class TestHighOrderFunctions {
@@ -301,9 +301,9 @@ class TestHighOrderFunctions {
 }
 ```
 
-七、常见陷阱与解决方案
+## 七、常见陷阱与解决方案
 
-1. 空函数类型参数
+### 1. 空函数类型参数
 
 ```kotlin
 // 使用可空函数类型
@@ -318,7 +318,7 @@ fun setOnClickListener(listener: (View) -> Unit = {}) {
 }
 ```
 
-2. 避免过度复杂
+### 2. 避免过度复杂
 
 ```kotlin
 // 避免：过于复杂的函数签名
@@ -337,7 +337,7 @@ data.transform()
     .process()
 ```
 
-3. 明确泛型类型
+### 3. 明确泛型类型
 
 ```kotlin
 // 清晰明确的泛型参数
@@ -354,9 +354,9 @@ fun <T> T.doEverything(action: (T) -> Unit): T {
 }
 ```
 
-八、实际工程案例
+## 八、实际工程案例
 
-1. Android中的使用
+### 1. Android中的使用
 
 ```kotlin
 class MainActivity : AppCompatActivity() {
@@ -377,7 +377,7 @@ class MainActivity : AppCompatActivity() {
 }
 ```
 
-2. 后端API处理
+### 2. 后端API处理
 
 ```kotlin
 class RequestHandler {
